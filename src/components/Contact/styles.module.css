@@ -1,0 +1,10 @@
+.contactItem {
+  padding: 20px;
+  border: 2px solid rgb(106, 84, 84);
+  width: 250px;
+  border-radius: 10px;
+}
+
+.deleteBtn {
+  margin-top: 10px;
+}

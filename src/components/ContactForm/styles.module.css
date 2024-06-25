@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 350px;
+  border: 2px solid rgb(39, 36, 41);
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.wraper {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.addBtn {
+  display: block;
+  padding: 10px 10px;
+  border: 1px solid rgb(53, 47, 47);
+  border-radius: 5px;
+  background-color: inherit;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid rgb(53, 47, 47);
+  padding: 5px 5px;
+}
+
+.error {
+  position: absolute;
+  bottom: -15px;
+  left: 5px;
+  color: rgb(235, 104, 104);
+  font-size: 12px;
+}
