@@ -20,7 +20,7 @@ const ContactsPage = lazy(
 
 //Components
 import Layout from "./components/Layout/Layout.jsx";
-import { refreshUser } from "./redux/auth/authOperation.js";
+import { refreshUser } from "./redux/auth/operations.js";
 import { selectIsRefreshing } from "./redux/auth/authSlice.js";
 
 //Selectors and fetches
