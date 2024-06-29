@@ -3,7 +3,7 @@ import ContactForm from "../../components/NewContactForm/ContactForm";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { fetchContacts } from "../../redux/contacts/operations";
-import { selectIsLoggedIn } from "../../redux/auth/slice";
+import { selectIsLoggedIn } from "../../redux/auth/selectors";
 
 export default function ContactsPage() {
   const dispatch = useDispatch();
